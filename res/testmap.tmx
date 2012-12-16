@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="test" tilewidth="32" tileheight="32">
+  <image source="test.png" width="128" height="128"/>
+  <tile id="1">
+   <properties>
+    <property name="type" value="player"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="40" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3JMQoAAAjEsPP/n3YXnAVJlg5NAACAKzW6/S8aOZkrvIAMAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="40" height="20">
+  <object x="1134" y="586" width="147" height="54"/>
+  <object x="1134" y="528" width="37" height="59"/>
+  <object gid="1" x="788" y="435"/>
+  <object gid="1" x="276" y="478"/>
+  <object gid="1" x="642" y="558"/>
+  <object gid="2" x="328" y="256"/>
+  <object name="actor" type="bride" gid="2" x="874" y="438" width="32" height="64"/>
+  <object name="actor" type="player" gid="2" x="364" y="257" width="32" height="64"/>
+ </objectgroup>
+</map>

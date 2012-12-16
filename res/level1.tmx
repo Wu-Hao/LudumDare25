@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="tile" tilewidth="64" tileheight="64">
+  <image source="tile.png" width="1088" height="576"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="30" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3QSQoCMRCF4RzGGdy1unDhQAsOe8HhBNqewOEE6pn9gyUUIQq2wVU9+EhIV6pCO2exWCyWsplihjkWift9ygprbLBNMFf3q6KCutDZYY8ChwRzdb9+oC3v8DnihDMuP8ybCN2v84aff8UNd/f8FzV5U4z/3kAz0MJS6H5+Rhc9DJEFZwMxktXXjJFHar+5r2v0/rWGfbJA2fv6TMsjM3R9qvv/9gC9EBQhYAkAAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="20">
+  <object name="scene" x="385" y="992" width="1546" height="311"/>
+  <object name="scene" x="5" y="921" width="379" height="361"/>
+  <object name="scene" x="4" y="862" width="250" height="58"/>
+  <object name="actor" type="player" x="526" y="687" width="64" height="128">
+   <properties>
+    <property name="rope" value="170"/>
+   </properties>
+  </object>
+  <object name="actor" type="priest" x="1230" y="853" width="65" height="132"/>
+  <object name="actor" type="bride" x="1027" y="854" width="64" height="128"/>
+  <object name="actor" type="groom" x="977" y="856" width="61" height="126"/>
+  <object name="object" type="chair" gid="18" x="943" y="955">
+   <properties>
+    <property name="weight" value="8"/>
+   </properties>
+  </object>
+  <object name="object" type="cake" gid="21" x="1157" y="954">
+   <properties>
+    <property name="weight" value="20"/>
+   </properties>
+  </object>
+  <object name="object" type="pillar" gid="24" x="1418" y="949">
+   <properties>
+    <property name="elastic" value="0"/>
+    <property name="friction" value="1"/>
+    <property name="weight" value="100"/>
+   </properties>
+  </object>
+  <object name="object" type="pillar" gid="24" x="1500" y="949">
+   <properties>
+    <property name="elastic" value="0"/>
+    <property name="friction" value="1"/>
+    <property name="weight" value="100"/>
+   </properties>
+  </object>
+  <object name="object" type="pillar" gid="24" x="335" y="883">
+   <properties>
+    <property name="elastic" value="0"/>
+    <property name="friction" value="1"/>
+    <property name="weight" value="100"/>
+   </properties>
+  </object>
+  <object name="object" type="arch" gid="23" x="189" y="831">
+   <properties>
+    <property name="weight" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

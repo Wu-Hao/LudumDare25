@@ -1,0 +1,13 @@
+sound list:
+
+throw sound
+catch sound
+object hitting another
+bag touch ground
+pull sound
+win sound
+lose sound
+bride scream
+button click
+
+about 20 words sounds

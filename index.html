@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cocos2d-html5 Hello World test</title>
+    <link rel="icon" type="image/GIF" href="res/favicon.ico"/>
+    <style>
+        html, body{height:100%;}
+        h3 a{
+            color:rgba(158,224,255,0.7);
+        }
+        #instructions, #copy{
+            color:rgba(255,255,255,0.4)
+        }
+    </style>
+</head>
+<body style="padding:0; margin: 0; background: url(back.png); width:100%; overflow: visible">
+<div style="margin:15px auto; display:block; width:1000px; background: rgba(0,0,0,0.2); overflow: visible; padding: 15px; border: 1px solid #05384d; border-radius:5px;">
+<h1 style="text-align: center; margin: 0 auto 0;"><img src="ludumentry.png" width="770" height="98"></h1>
+<h2 style="text-align: left; color:rgba(255,255,255,0.6); font-weight: bolder; font-size: 30px; margin-left: 125px">Bag a Bride</h2>
+<h3 style="color:rgba(255,255,255,0.4);margin-left: 125px">A Ludum Dare 48hrs Compo Game By <a href="http://weibo.com/wuhaox">Hao Wu</a> (<a href="#">Source Code</a>, <a href="http://www.ludumdare.com/compo/author/wuhao/">LD blog</a>, <a href="http://cocos2d-x.org">Cocos2d-html5</a>)</h3>
+<div style="width:1000px; background: #c8eff0; margin:0 auto; box-shadow:0 0 15px 0 rgba(0,0,0,0.5); -webkit-box-shadow:0 0 20px 0 rgba(0,0,0,0.3); -moz-box-shadow:0 0 20px 0 rgba(0,0,0,0.3); -ms-box-shadow:0 0 20px 0 rgba(0,0,0,0.3); -o-box-shadow:0 0 20px 0 rgba(0,0,0,0.3)">
+    <div style="font-size: 0">
+        <canvas  id="gameCanvas" width="1000" height="450"></canvas>
+    </div>
+</div>
+<div id="instructions" style="overflow: hidden">
+    <div style="float:left; width:500px"><h4>How to play</h4>
+    <p>kidnap brides and destroy the wedding party and ruin their life!<br/>
+        drag and launch angry bird style
+        </p>
+    </div>
+    <div style="float:left; width:500px"><h4>怎样玩</h4>
+        <p>劫持新娘，破坏婚礼, 毁了他们的幸福！<br/>
+            拖动发射，像angri bird 那样
+        </p>
+    </div>
+</div>
+</div>
+<div id="copy" style="text-align: center; font-size: 14px;">&copy; 2012 Hao Wu</div>
+</body>
+</html>
+<script src="cocos2d.js"></script>

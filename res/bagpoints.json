@@ -1,0 +1,22 @@
+	{ 
+		
+		"bag": [
+			
+				{
+					"density": 2, "friction": 0, "bounce": 0, 
+					"filter": { "categoryBits": 1, "maskBits": 65535 },
+					"shape": [   9, 62  ,  17, 53  ,  27, 61  ]
+				}   ,
+				{
+					"density": 2, "friction": 0, "bounce": 0, 
+					"filter": { "categoryBits": 1, "maskBits": 65535 },
+					"shape": [   10, 54  ,  3, 46  ,  4, 11  ,  27, 11  ,  28, 45  ,  21, 55  ]
+				}  ,
+				{
+					"density": 2, "friction": 0, "bounce": 0, 
+					"filter": { "categoryBits": 1, "maskBits": 65535 },
+					"shape": [   1, 2  ,  30, 4  ,  27, 11  ,  4, 11  ]
+				}  
+		]
+		
+	}

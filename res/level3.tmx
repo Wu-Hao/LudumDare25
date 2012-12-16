@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="34" height="20" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="tile" tilewidth="64" tileheight="64">
+  <image source="tile.png" width="1088" height="576"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="34" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RxwrCQBDG8TyBj+BFD5abWI4WFCx3wYLdiwW7F/UN1Gf2L0QYlnE1IPGSD34kM5nsbojjBAkSJIj/CSl+lTEmmP75HHsccHzzvIc+Bhhi5Hg7uy1V1FBHQ6llVlhjgy12X5z927TQRgddpfYrM8yxwFKp/UgFJ5xxUeqwT+do4oob7kodsYghhbgHCUQNSWSQRQ4FpI1e3lV0r8+ZEsrurJxPK8xncm1Zy76812Zzln3k7Kc9tfflrFRW9vz0fS/ZN+uYs7Kv7eWF7Z/YZszeA2zAnGCgCgAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="34" height="20">
+  <object name="actor" type="player" x="397" y="697" width="64" height="128">
+   <properties>
+    <property name="rope" value="420"/>
+   </properties>
+  </object>
+  <object name="actor" type="priest" x="1702" y="844" width="65" height="132"/>
+  <object name="actor" type="bride" x="1612" y="848" width="64" height="128"/>
+  <object name="actor" type="groom" x="1549" y="850" width="61" height="126"/>
+  <object name="scene" x="-12" y="988" width="2720" height="139"/>
+  <object name="object" type="arch" gid="23" x="590" y="958">
+   <properties>
+    <property name="weight" value="2"/>
+   </properties>
+  </object>
+  <object name="object" type="arch" gid="23" x="1447" y="959">
+   <properties>
+    <property name="weight" value="2"/>
+   </properties>
+  </object>
+  <object name="object" type="chair" gid="18" x="1247" y="958">
+   <properties>
+    <property name="weight" value="8"/>
+   </properties>
+  </object>
+  <object name="object" type="chair" gid="18" x="1149" y="959">
+   <properties>
+    <property name="weight" value="8"/>
+   </properties>
+  </object>
+  <object name="object" type="chair" gid="18" x="1056" y="959">
+   <properties>
+    <property name="weight" value="8"/>
+   </properties>
+  </object>
+  <object name="object" type="chair" gid="18" x="962" y="957">
+   <properties>
+    <property name="weight" value="8"/>
+   </properties>
+  </object>
+  <object name="object" type="table" gid="19" x="810" y="958">
+   <properties>
+    <property name="weight" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="36" height="20" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="tile" tilewidth="64" tileheight="64">
+  <image source="tile.png" width="1088" height="576"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="36" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SyQrCMBAG4LyLxbrgLdWDBxdacLkLLk9g9QlcnsDllf2DKYQhi6RRLxn4SCkzzTQTxmLEiBEjfMxgDgtY/rkXEWvYwBZ2hpxf9ruHEg5wNOS4+g0RhXSCM1zgasi19Wubd0Kk0II20YGVdIM7POAJDSJx9Gubdw4cMujDAMaadyNpIleRM1XyaL7ab0r2tM2ba76lPlcrzeEOQ6Inz02Ebt6FpR9VzvT7Vfmm+sxA9KXOW5xdk73vQfeD//TlO/8Q90dXX3f+oetDz79u/bfuga8X0pIF6EALAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="36" height="20">
+  <object name="actor" type="player" x="561" y="699" width="64" height="128">
+   <properties>
+    <property name="rope" value="310"/>
+   </properties>
+  </object>
+  <object name="actor" type="groom" x="1250" y="600" width="61" height="126"/>
+  <object name="actor" type="bride" x="1288" y="598" width="64" height="128"/>
+  <object name="actor" type="priest" x="1419" y="595" width="65" height="132"/>
+  <object name="object" type="arch" gid="23" x="930" y="702">
+   <properties>
+    <property name="weight" value="2"/>
+   </properties>
+  </object>
+  <object name="object" type="table" gid="19" x="1083" y="702">
+   <properties>
+    <property name="weight" value="15"/>
+   </properties>
+  </object>
+  <object name="object" type="pot" gid="25" x="1533" y="703">
+   <properties>
+    <property name="weight" value="30"/>
+   </properties>
+  </object>
+  <object name="scene" x="897" y="738" width="1062" height="565"/>
+  <object name="scene" x="4" y="989" width="891" height="270"/>
+  <object name="scene" x="5" y="923" width="379" height="69"/>
+  <object name="scene" x="3" y="856" width="251" height="121"/>
+ </objectgroup>
+</map>
