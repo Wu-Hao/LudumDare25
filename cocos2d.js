@@ -45,7 +45,7 @@
             'src/level.js',
             'src/actor.js',
             'src/objects.js',
-            'src/miniScript.js',
+            'src/miniscript.js',
             'src/myApp.js'//add your own files in order here
         ]
     };
