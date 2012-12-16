@@ -28,6 +28,7 @@
     var d = document;
     var c = {
         COCOS2D_DEBUG:2, //0 to turn debug off, 1 for basic debug, and 2 for full debug
+        CLASS_RELEASE_MODE:true,
         loadExtension:true,
         box2d:false,
         chipmunk:true,
